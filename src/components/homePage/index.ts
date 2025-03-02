@@ -1,0 +1,10 @@
+export { default as DownloadTheApp } from "./downloadTheApp/DownloadTheApp";
+export { default as FollowOurUpdates } from "./followOurUpdates/FollowOurUpdates";
+export { default as Header } from "./Header";
+export { default as HowDoesEmoryaWork } from "./howDoesEmoryaWork/HowDoesEmoryaWork";
+export { default as MostIngeniousEconomy } from "./mostIngeniousEconomy/MostIngeniousEconomy";
+export { default as MoveRestLive } from "./moveRestLive/MoveRestLive";
+export { default as PlayBoostGames } from "./playBoostGames/PlayBoostGames";
+export { default as ReferralRewardsForLife } from "./referralRewardForLife/ReferralRewardsForLife";
+export { default as WhyChooseEmorya } from "./whyChooseEmorya/WhyChooseEmorya";
+export { default as WhyIsEmoryaDifferent } from "./whyIsEmoryaDifferent/WhyIsEmoryaDifferent";

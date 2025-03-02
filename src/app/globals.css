@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-full-hd: 1920px;
+  --width-100: 400px;
+  --width-120: 480px;
+  --width-124: 496px;
+  --width-full-hd: 1920px;
+
+  --min-width-100: 400px;
+  --min-width-120: 480px;
+  --min-width-124: 496px;
+  --min-width-full-hd: 1920px;
+
+  --max-width-100: 400px;
+  --max-width-120: 480px;
+  --max-width-124: 496px;
+  --max-width-full-hd: 1920px;
+
+  --height-100: 400px;
+  --height-120: 480px;
+  --height-124: 496px;
+
+  --min-height-100: 400px;
+  --min-height-120: 480px;
+  --min-height-124: 496px;
+
+  --max-height-100: 400px;
+  --max-height-120: 480px;
+  --max-height-124: 496px;
+
+  --font-plus-jakarta: var(--font-plus-jakarta-sans);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-purple-text: #211241;
+  --color-purple-primary: #1b0439;
+  --color-purple-custom-10: #8c51ff;
+  --color-purple-custom-15: #a683eb;
+  --color-purple-custom-20: #a57bf8;
+
+  --background-image-image-earth-and-sun: url("/images/background_earth.png");
+  --background-image-image-navbar-background: url("/images/navbar-background.png");
+  --background-image-image-roulette-and-2-phones: url("/images/roulette_and_2_phones.png");
+  --background-image-image-why-choose-emorya: url("/gradients/why_choose_emorya.png");
+  --background-image-image-download-the-app: url("/gradients/download_the_app_emorya.png");
+  --background-image-gradient-header-bottom: linear-gradient(
+    to top,
+    var(--color-purple-primary) 0% 32%,
+    transparent 48%
+  );
+  --background-image-gradient-aside: linear-gradient(#3f2567, #2d1750, #180835);
+  --background-image-gradient-move-rest-live: linear-gradient(
+    #534571,
+    #372559,
+    #25114b
+  );
+  --background-image-gradient-mobile-card: linear-gradient(
+    #534571,
+    #372559,
+    #25114b,
+    #1a0a38
+  );
+  --background-image-gradient-store-button: linear-gradient(
+    #443167,
+    #331e5a,
+    #2a1452
+  );
+  --background-image-gradient-download-the-app: linear-gradient(
+    #40335d,
+    #32235f,
+    #2e1c63,
+    #30116f
+  );
+  --background-image-gradient-follow-our-updates: linear-gradient(
+    #46366c,
+    #34245e,
+    #26134e
+  );
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
