@@ -9,7 +9,7 @@ const Paragraph: React.FC<ParagraphProps> = ({ children, className }) => {
   return (
     <p
       className={cn(
-        "text-center [text-shadow:_1px_1px_1px_#000] text-sm text-white md:text-base lg:text-lg",
+        "text-center text-sm text-white [text-shadow:_1px_1px_1px_#000] md:text-base lg:text-lg",
         className,
       )}
     >

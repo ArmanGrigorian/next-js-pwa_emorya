@@ -21,7 +21,7 @@ const SocialMediaButton: React.FC<SocialMediaButtonProps> = ({
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "flex items-center justify-center gap-4 rounded-xl bg-white px-3 py-2 shadow-md transition hover:opacity-75 active:scale-95 lg:gap-6 lg:rounded-2xl lg:py-3 2xl:py-4",
+        "flex items-center justify-center gap-4 rounded-xl bg-white px-3 py-2 font-medium shadow-md transition hover:opacity-75 active:scale-95 lg:gap-6 lg:rounded-2xl lg:py-3 2xl:py-4",
         className,
       )}
     >
@@ -33,7 +33,7 @@ const SocialMediaButton: React.FC<SocialMediaButtonProps> = ({
         className={cn("size-7 object-contain lg:size-8", iconClassName)}
       />
       <span
-        className={cn("text-base text-purple-text lg:text-xl", textClassName)}
+        className={cn("text-purple-text text-base lg:text-xl", textClassName)}
       >
         {socialMediaConfigs[socialMedia].title}
       </span>

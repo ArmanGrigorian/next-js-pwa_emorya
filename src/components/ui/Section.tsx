@@ -9,7 +9,7 @@ const Section: React.FC<SectionProps> = ({ children, className }) => {
   return (
     <section
       className={cn(
-        "relative mx-auto max-w-full-hd select-none px-5 py-8 md:px-10 lg:py-16 xl:px-24 full-hd:px-52",
+        "max-w-full-hd full-hd:px-52 relative mx-auto px-5 py-8 select-none md:px-10 lg:py-16 xl:px-24",
         className,
       )}
     >

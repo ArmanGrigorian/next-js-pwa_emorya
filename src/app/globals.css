@@ -40,10 +40,9 @@
   --color-purple-custom-20: #a57bf8;
 
   --background-image-image-earth-and-sun: url("/images/background_earth.png");
-  --background-image-image-navbar-background: url("/images/navbar-background.png");
   --background-image-image-roulette-and-2-phones: url("/images/roulette_and_2_phones.png");
-  --background-image-image-why-choose-emorya: url("/gradients/why_choose_emorya.png");
   --background-image-image-download-the-app: url("/gradients/download_the_app_emorya.png");
+  --background-image-gradient-navbar: linear-gradient(90deg, #402568, #180835);
   --background-image-gradient-header-bottom: linear-gradient(
     to top,
     var(--color-purple-primary) 0% 32%,

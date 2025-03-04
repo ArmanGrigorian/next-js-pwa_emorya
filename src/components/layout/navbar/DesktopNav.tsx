@@ -18,7 +18,7 @@ const DesktopNav: React.FC = () => {
         </li>
       ))}
       <li>
-        <DownloadAppButton />
+        <DownloadAppButton className="lg:py-2.5"/>
       </li>
     </ul>
   );

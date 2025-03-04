@@ -1,0 +1,40 @@
+{
+  "id": "Emorya",
+  "lang": "en",
+  "name": "Emorya",
+  "start_url": "/",
+  "short_name": "Emorya",
+  "description": "Emorya",
+  "orientation": "any",
+  "theme_color": "#1b0439",
+  "background_color": "#1b0439",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/icons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.webp",
+      "sizes": "1280x800",
+      "type": "image/webp",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/mobile.webp",
+      "sizes": "750x1334",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    }
+  ]
+}
