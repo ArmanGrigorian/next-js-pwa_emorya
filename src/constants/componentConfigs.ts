@@ -14,20 +14,30 @@ export const storeConfigs = {
 export const socialMediaConfigs = {
   discord: {
     id: 0,
-    title: "Join Discord",
+    title: "Discord",
     href: "https://discord.com/invite/9Jrj7U9Y9R",
-    icon: "/icons/discord_logo_purple.png",
+    lightIcon: "/icons/discord_logo.png",
+    darkIcon: "/icons/discord_logo_purple.png",
   },
   x: {
     id: 1,
-    title: "Join X",
+    title: "X",
     href: "https://x.com/EmoryaFinance",
-    icon: "/icons/x_logo_purple.png",
+    lightIcon: "/icons/x_logo.png",
+    darkIcon: "/icons/x_logo_purple.png",
   },
   telegram: {
     id: 2,
-    title: "Join Telegram",
+    title: "Telegram",
     href: "https://t.me/EmoryaFinanceInternational",
-    icon: "/icons/telegram_logo_purple.png",
+    lightIcon: "/icons/telegram_logo.png",
+    darkIcon: "/icons/telegram_logo_purple.png",
+  },
+  instagram: {
+    id: 3,
+    title: "Instagram",
+    href: "https://www.instagram.com/emoryafinance/",
+    lightIcon: "/icons/instagram_logo.png",
+    darkIcon: "/icons/instagram_logo.png",
   },
 };

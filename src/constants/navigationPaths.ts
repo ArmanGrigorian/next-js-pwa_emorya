@@ -51,34 +51,3 @@ export const footerNavigationPaths = [
     newTab: false,
   },
 ];
-
-export const socialMediaPaths = [
-  {
-    id: 0,
-    title: "Instagram",
-    href: "https://www.instagram.com/emoryafinance/",
-    newTab: true,
-    icon: "/icons/instagram_logo.png",
-  },
-  {
-    id: 1,
-    title: "Discord",
-    href: "https://discord.com/invite/9Jrj7U9Y9R",
-    newTab: true,
-    icon: "/icons/discord_logo.png",
-  },
-  {
-    id: 2,
-    title: "X",
-    href: "https://x.com/EmoryaFinance",
-    newTab: true,
-    icon: "/icons/x_logo.png",
-  },
-  {
-    id: 3,
-    title: "Telegram",
-    href: "https://t.me/EmoryaFinanceInternational",
-    newTab: true,
-    icon: "/icons/telegram_logo.png",
-  },
-];

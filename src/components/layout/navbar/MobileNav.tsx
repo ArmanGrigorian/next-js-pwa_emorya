@@ -44,7 +44,7 @@ const MobileNav: React.FC = () => {
           type="button"
           onClick={() => setIsOpen(false)}
           aria-label="Close menu"
-          className="absolute top-5 right-5 p-3 transition hover:opacity-75 active:scale-95"
+          className="absolute top-5 right-5 z-10 p-3 transition hover:opacity-75 active:scale-95"
         >
           <Image
             src="/icons/close_menu.png"
